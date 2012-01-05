@@ -1,0 +1,127 @@
+.overlay {
+	width: 100%;
+	height: 100%;
+	background: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 98;
+}
+
+.dialog {
+	background: white;
+	top: 50%;
+	left: 50%;
+	position: fixed;
+	z-index: 99;
+	padding: 1em;
+	font-size: 90%;
+	width: 30em;
+	height: 29em;
+	margin: -11em 0 0 -15em;
+}
+
+.dialog label {
+	padding-top: .25em;
+	display: block;
+}
+
+ul#dropdown {
+	font-size: 90%;
+	list-style: none;
+	margin: 0;
+	padding: 0.1666em;
+	position: fixed;
+	background-color: #DDD;
+	margin: -1px 0;
+	border: 1px solid #999;
+	width: 23em;
+	z-index: 101;
+}
+
+ul#dropdown em {
+	background-color: white;
+}
+
+ul#dropdown li {
+	margin: 1px 3px 0 3px;
+	border-bottom: 1px solid #999;
+	overflow: hidden;
+}
+
+ul#dropdown li.last {
+	border-bottom: 0;
+}
+
+ul#dropdown li.over {
+	background-color: #eaeff9;
+	cursor: pointer;
+}
+
+ul#dropdown li span {
+	width: 10000em;
+	overflow: hidden;
+	display: block;
+}
+
+ul#dropdown .id,ul#dropdown .name {
+	display: inline;
+}
+
+ul#dropdown li span.name,ul#dropdown li span.name em {
+	font-weight: bold;
+}
+
+ul#dropdown li span.id {
+	padding-left: 0.5em;
+}
+
+ul#dropdown li span.id:before {
+	content: "("
+}
+
+ul#dropdown li span.id:after {
+	content: ")"
+}
+
+label#person-label,label#unit-label {
+	display: none;
+}
+
+.dialog label {
+	width: 25%;
+	float: left;
+	text-align: right;
+	margin-right: 0.5em;
+	display: block
+}
+
+.submit input {
+	margin-left: 4.5em;
+}
+
+.dialog fieldset.course_detail {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+.dialog input[type='text'] {
+	border: 1px solid #666
+}
+
+.dialog fieldset,.dialog fieldset.course_detail {
+	border: 1px solid #ccc;
+	width: 100%;
+	margin-top: 1em;
+	padding-bottom: 0.5em;
+}
+
+.dialog legend {
+	font-weight: bold;
+	color: #444444;
+	background: #D6E3FF;
+	border: 1px solid #ccc;
+	padding: 2px 6px;
+	margin-bottom: .5em;
+}

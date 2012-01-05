@@ -1,0 +1,258 @@
+body {
+    padding: 0 1em;
+}
+
+p.search-filter {
+    margin-top: 4px;
+    margin-bottom: 8px;
+    padding: 3px 2px;
+    background: #818181;
+    text-align: right;
+    display: none;
+}
+
+.toggle {
+    height: 16px;
+    width: 16px;
+}
+
+#course_search {
+    float: right;
+}
+
+.search-filter label {
+    color: #fff
+}
+
+/*.course-list */
+.course_cont{
+    border: solid 1px #DDD;
+    padding: 8px 0;
+}
+
+.admin_box{
+    padding: 8px;
+    margin: 10px 0px 0px 10px;
+}
+
+.admin_instruction{
+    margin: 15px 0 0 0;
+}
+
+.admin_instruction p{
+    margin: 7px 0 0 0;
+}
+
+#period_container td{
+    padding: 0 5px 0 5px;
+    border: solid 1px #DDD;
+}
+
+#waitDivContainer {
+    margin: 0px auto;
+    width: 400px;
+}
+
+#period_code_table{
+    margin-top: 7px;
+}
+
+.admin_controls{
+    margin-top: 7px;
+    width: 800px;
+}
+
+#waitDiv {
+    background-color: white;
+    width: 350px;
+    height: 69px;
+    margin-top: 300px;
+    border: 4px solid #003399;
+}
+
+#waitMessageDiv {
+    background-color: white;
+    width: 250px;
+    height: 20px;
+    margin: 25px 0 0 20px;
+    float: left;
+    text-align: right;
+}
+
+#loaderDiv {
+    background-image: url("../images/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    width: 31px;
+    height: 50px;
+    margin-left: 19px;
+    float: left;
+}
+
+#btn_sync a:hover {
+    background-color: white;
+}
+
+div.course_cont {
+    margin-bottom: 8px;
+    margin-left: .5em;
+    padding: 5px;
+}
+
+.hidden_filter {
+    display: none
+}
+
+strong.hiddenfield {
+    display: none;
+}
+
+h3 {
+    display: inline;
+}
+
+.course_title {
+    margin-bottom: .5em;
+}
+
+.course_detail {
+    margin-left: 1em;
+    margin-bottom: 0px;
+    /*border-left: 4px solid #DDD;*/
+    padding-left: .5em;
+    padding-bottom: .2em;
+}
+
+.mpg_category {
+    font-size: 0.8em;
+}
+
+.remove {
+    font-size: 0.8em;
+}
+
+.disabled {
+    color: #CCC;
+}
+
+.date-selects {
+    display: block;
+}
+
+.unenrol-selects {
+    display: block;
+    float: left;
+}
+
+form.apply_changes {
+    display: none;
+}
+
+.grpblock {
+    padding: 3px;
+    border: 1px solid #DDDDDD;
+    margin-top: 9px;
+    width: 660px;
+}
+
+.grpblock h5 {
+    color: #000000;
+}
+
+
+.btn_tab {
+    
+}
+
+.samis_notice {
+    border: solid 1px black;
+    font-size: 13.2833px;
+    padding: 4px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    text-align: left;
+}
+
+.samis_font {
+    font-size: 0.9em;
+}
+
+.samis_font a {
+    color: #426CC2;
+    cursor: pointer;
+}
+
+.map_select {
+    font-size: 0.8em;
+    padding: 0px;
+}
+
+.controls {
+    margin: 0.3em 0 0 0;
+}
+
+.load_message {
+    margin: 0.3em 0 0 0;
+    border: solid 1px #DDD;
+    background-color: #DDD;
+    width: auto;
+}
+
+groups_load_message {
+    margin: 0.3em 0 0 0;
+    border: solid 1px #DDD;
+    width: auto;
+}
+
+.map_submit {
+    font-size: 0.8em;
+    padding: 0px;
+    /*background-color: #CF0F00;
+    color: #EFEFEF;*/
+}
+
+#outertab {
+    margin: 7px 0 7px 0;
+    padding: 3px 0 3px 0;
+    /*background-color: #818181; */
+}
+
+.pagetitle {
+    margin: 0 0 7px 0;
+}
+
+.loading {
+    height: 1.3em;
+}
+
+#id_add_cohort_buttons {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.mng_groups {
+    font-size: 1.2em;
+}
+
+#select_mappings{
+    height: 200px; 
+}
+
+.new_map_form_element{
+	clear: both;
+	height: 2em;
+}
+
+.new_map_form_label{
+	float: left;
+	width: 15em;
+	margin-left: 2em;
+}
+
+.new_mapping {
+	padding-top: 2em;
+}
+
+.new_map_form_input{
+	float: left;
+}

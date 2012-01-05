@@ -1,0 +1,31 @@
+<div class="course_cont" id="id_%1$s">
+	<div id = "id_%1$s_title" class="course_title">
+		<a id="id_%1$s_plus" class="expand" onclick="sits_block.loadMappingsForCourse(%1$s);">
+			<img id="id_%1$s_plus_img" class="toggle" src="./images/switch_plus.gif" alt="Toggle visibility" />
+		</a>
+		<b>%2$s</b>
+		<div style="display: none;">%3$s / %4$s</div>
+	</div>
+	<div id="course_%1$s" class="collapsible course">
+		<div id = "id_%1$s_content" class="course-cont">
+		</div>
+		<div id = "id_%1$s_mappings" class="course-cont">
+		</div>
+	</div>
+	<div id= "id_%1$s_control_container">
+		<div id= "id_%1$s_controls" class="controls" style="display: none;">
+		        <input type="submit" class="save_btn" id="id_%1$s_save"  value="Save Changes"
+				onclick="sits_block.save_course_changes(%1$s);"/>
+				<input type="submit" class="add" id="id_%1$s_addbut"  value="Add Cohort"
+				onclick="sits_block.addModuleClick(%1$s);" />
+				<input type="submit" class="add" id="id_%1$s_sync"  value="Sync Course"
+				onclick="sits_block.sync_course(%1$s);" />
+		        <input type="submit" class="add" id="id_%1$s_view"  value="View Enrolled Users"
+				onclick="sits_block.view_course(%1$s);" />
+		</div>
+		<div id="id_%1$s_loading" class="controls" style="display: none;">
+			<div id="id_%1$s_load_message" class="load_message"></div>
+		</div>
+		<div id="id_%1$s_new_map_form"></div>
+	</div>
+</div>
