@@ -35,6 +35,3 @@ improves the performance of Moodle generally.
 The block creates courses in Moodle for each and every active cohort in SITS - this is a requirement of the University of Bath, it may
 not be desirable in every institution.  It would be a simple code change to change this behaviour, and should there be demand we may
 write this in as a configurable option.
-
-If a mapping finds that it wants to make an enrolment but that enrolment already exists it will takes ownership, linking that enrolment 
-to the mapping, unless the role_assignment.enrol value is 'manual'.
