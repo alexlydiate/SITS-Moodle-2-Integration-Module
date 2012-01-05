@@ -1,5 +1,7 @@
 ##SITS-Moodle Integration Modules for Moodle 2.x
 
+This software integrates the SITS Vision student information system with Moodle 2.x
+
 ##Installation
 
 1) Copy the directory blocks/sits into <moodle_root>/blocks/
@@ -14,9 +16,9 @@
 
 ##Be Aware
 
-**Currently the block only supports SITS on Oracle databases**.
+**This software is currently in development and due to go live at the University of Bath with our move to Moodle 2 this summer **
 
-**The block requires PHP version 5.3**
+**Currently it only supports SITS on Oracle databases**.
 
 **Certain validation functions may need to be customised**.
 We validate some data via regular expression pattern matching, in particular SITS module and program codes.  These patterns are unique to Bath;
