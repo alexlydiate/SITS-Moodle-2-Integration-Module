@@ -16,7 +16,7 @@ This software integrates the SITS Vision student information system with Moodle 
 
 ##Be Aware
 
-**This software is currently in development and due to go live at the University of Bath with our move to Moodle 2 this summer **
+**This software is currently in development and due to go live at the University of Bath with our move to Moodle 2 this summer**.
 
 **Currently it only supports SITS on Oracle databases**.
 
